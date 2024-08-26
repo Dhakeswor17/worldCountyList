@@ -14,7 +14,7 @@ body{
     flex-direction: column;
     background-position: center;
     color: rgb(247, 247, 133);
-    height: 100vh;
+    
     word-spacing: 0.5rem;
     
 }
@@ -26,3 +26,36 @@ body{
     height: 1.2rem;
     width: 15rem;
 }
+.countriesList{
+    width: 10rem;
+    height: auto;
+    margin: 1rem;
+    border-radius: 1rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(image/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    background-position: center;
+
+    
+}
+.buttons{
+    background-color: rgb(212, 230, 191);
+    border-radius: 8px;
+}
+.buttons:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
