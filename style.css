@@ -25,11 +25,13 @@ body{
     border-radius: 0.5rem;
     height: 1.2rem;
     width: 15rem;
+    margin: 1rem;
+    padding: 0.5rem;
 }
 .countriesList{
     width: 10rem;
     height: auto;
-    margin: 1rem;
+    margin-top: 5rem;
     border-radius: 1rem ;
     display: flex;
     align-items: center;
@@ -42,20 +44,29 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(image/header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-direction: column;
-    background-position: center;
-
-    
 }
 .buttons{
     background-color: rgb(212, 230, 191);
     border-radius: 8px;
+    margin: 0.6rem;
+    padding: 0.2rem;
 }
 .buttons:hover{
     cursor: pointer;
-    background-color: aquamarine;
+    background-color: rgb(144, 170, 255);
+}
+.countriesName{
+    width: 9rem;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(14, 18, 1);
+    color: rgb(0, 13, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    padding: 0.3rem;
 }
 
